@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extractivismo e Impacto Ambiental — 8° Grado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bowlby+One+SC&family=Fredoka:wght@400;600;700&family=Archivo+Black&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============== HEADER POP-ART ============== -->
+  <header class="pop-header">
+    <div class="halftone"></div>
+    <div class="header-inner">
+      <div class="badge-zap">¡ZAP!</div>
+      <h1 class="pop-title">
+        <span class="pop-title-1">EXTRACTIVISMO</span>
+        <span class="pop-title-amp">&amp;</span>
+        <span class="pop-title-2">IMPACTO AMBIENTAL</span>
+      </h1>
+      <p class="subtitle">Ciudadanía y Valores · 8° Grado · COEDUCA</p>
+      <div class="badge-boom">¡BOOM!</div>
+    </div>
+  </header>
+
+  <!-- ============== DATOS GENERALES ============== -->
+  <section class="panel" id="panel-datos">
+    <div class="panel-corner tl"></div>
+    <div class="panel-corner tr"></div>
+    <div class="panel-corner bl"></div>
+    <div class="panel-corner br"></div>
+    <h2 class="panel-title">📋 Datos Generales</h2>
+
+    <div class="grid-datos">
+      <div class="campo-fijo">
+        <label>Escuela</label>
+        <div class="valor-fijo">COEDUCA</div>
+      </div>
+      <div class="campo-fijo">
+        <label>Materia</label>
+        <div class="valor-fijo">Ciudadanía y Valores</div>
+      </div>
+      <div class="campo-fijo">
+        <label>Maestro</label>
+        <div class="valor-fijo">José Eliseo Martínez</div>
+      </div>
+      <div class="campo-fijo">
+        <label>Grado</label>
+        <div class="valor-fijo">Octavo</div>
+      </div>
+      <div class="campo-input">
+        <label for="nombreEstudiante">Nombre del Estudiante</label>
+        <input type="text" id="nombreEstudiante" placeholder="Escribe tu nombre completo..." />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== EJERCICIO INICIAL: TABLA BASURA ============== -->
+  <section class="panel" id="panel-basura">
+    <div class="panel-corner tl"></div>
+    <div class="panel-corner tr"></div>
+    <div class="panel-corner bl"></div>
+    <div class="panel-corner br"></div>
+
+    <h2 class="panel-title">🗑️ Ejercicio Inicial: Observa y Analiza</h2>
+    <p class="instrucciones">
+      Observa la imagen a continuación. En ella puedes ver cuatro tipos de desechos que afectan al medio ambiente.
+      Completa la tabla explicando cómo cada uno de ellos <strong>afecta al medio ambiente</strong>.
+    </p>
+
+    <div class="imagen-wrapper">
+      <img src="files/Captura_de_pantalla_2026-04-22_084713.png" alt="Cuatro tipos de desechos" class="imagen-fija" />
+    </div>
+
+    <div class="tabla-scroll">
+      <table class="tabla-pop tabla-4col">
+        <thead>
+          <tr>
+            <th class="th-amarillo">⚡ Desechos<br>Electrónicos</th>
+            <th class="th-rosa">👕 Desechos<br>Textiles</th>
+            <th class="th-azul">🚗 Transporte</th>
+            <th class="th-verde">🍎 Desechos<br>Orgánicos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><textarea data-key="basura-electronicos" placeholder="¿Cómo afectan los desechos electrónicos al medio ambiente?"></textarea></td>
+            <td><textarea data-key="basura-textiles" placeholder="¿Cómo afectan los desechos textiles al medio ambiente?"></textarea></td>
+            <td><textarea data-key="basura-transporte" placeholder="¿Cómo afecta el transporte al medio ambiente?"></textarea></td>
+            <td><textarea data-key="basura-organicos" placeholder="¿Cómo afectan los desechos orgánicos al medio ambiente?"></textarea></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============== VIDEO ============== -->
+  <section class="panel" id="panel-video">
+    <div class="panel-corner tl"></div>
+    <div class="panel-corner tr"></div>
+    <div class="panel-corner bl"></div>
+    <div class="panel-corner br"></div>
+
+    <h2 class="panel-title">🎬 Observa el Video</h2>
+    <p class="instrucciones">
+      Mira con atención el siguiente video. Al finalizar, responde las preguntas que se presentan a continuación.
+    </p>
+    <div class="video-wrapper">
+      <video controls controlsList="nodownload" playsinline>
+        <source src="files/video.mp4" type="video/mp4" />
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </div>
+  </section>
+
+  <!-- ============== PREGUNTAS DEL VIDEO ============== -->
+  <section class="panel" id="panel-preguntas-video">
+    <div class="panel-corner tl"></div>
+    <div class="panel-corner tr"></div>
+    <div class="panel-corner bl"></div>
+    <div class="panel-corner br"></div>
+
+    <h2 class="panel-title">❓ Preguntas sobre el Video</h2>
+
+    <div class="pregunta">
+      <div class="num-bubble">1</div>
+      <p class="pregunta-texto">
+        En la historia, Pedro y Emerson compran un celular nuevo sin necesitarlo realmente.
+        Según lo aprendido, <strong>¿qué es la obsolescencia programada</strong> y de qué manera esta estrategia
+        nos motiva a comprar cosas nuevas antes de lo necesario?
+      </p>
+      <textarea data-key="video-q1" placeholder="Escribe tu respuesta aquí..."></textarea>
+    </div>
+
+    <div class="pregunta">
+      <div class="num-bubble">2</div>
+      <p class="pregunta-texto">
+        Los celulares que Pedro y Emerson dejaron de usar se convertirán en basura electrónica. En el año 2019,
+        <strong>¿cuántos millones de toneladas de residuos electrónicos (residuos-E) se generaron en el mundo</strong>
+        y por qué esta cifra está creciendo tan rápido?
+      </p>
+      <textarea data-key="video-q2" placeholder="Escribe tu respuesta aquí..."></textarea>
+    </div>
+
+    <div class="pregunta">
+      <div class="num-bubble">3</div>
+      <p class="pregunta-texto">
+        ¿Por qué es un peligro grave para el medio ambiente y para la salud humana
+        <strong>tirar a la basura aparatos eléctricos y electrónicos (AEE)</strong>
+        sin ningún protocolo de seguridad?
+      </p>
+      <textarea data-key="video-q3" placeholder="Escribe tu respuesta aquí..."></textarea>
+    </div>
+
+    <div class="pregunta">
+      <div class="num-bubble">4</div>
+      <p class="pregunta-texto">
+        Gran parte de la basura electrónica contaminante no se queda en los países que más consumen.
+        <strong>¿A qué tipo de países se suele trasladar esta basura</strong> y bajo qué "excusas"
+        (como donaciones) llega a sus destinos?
+      </p>
+      <textarea data-key="video-q4" placeholder="Escribe tu respuesta aquí..."></textarea>
+    </div>
+
+    <div class="pregunta">
+      <div class="num-bubble">5</div>
+      <p class="pregunta-texto">
+        Si estuvieras en el lugar de Pedro o Emerson, y sintieras el impulso de comprar un producto que no es
+        de primera necesidad, <strong>¿qué posibles efectos sobre el ambiente considerarías</strong>
+        antes de tomar la decisión?
+      </p>
+      <textarea data-key="video-q5" placeholder="Escribe tu respuesta aquí..."></textarea>
+    </div>
+  </section>
+
+  <!-- ============== CONSOLIDACIÓN ============== -->
+  <section class="panel consolidacion" id="panel-consolidacion">
+    <div class="panel-corner tl"></div>
+    <div class="panel-corner tr"></div>
+    <div class="panel-corner bl"></div>
+    <div class="panel-corner br"></div>
+
+    <div class="splash-title">
+      <h2 class="panel-title">💡 Consolidación</h2>
+    </div>
+
+    <h3 class="subtitulo-actividad">4. Actividad Individual</h3>
+    <p class="instrucciones">
+      Completa el cuadro resumen que incluye tipos de contaminación, causas y consecuencias, relacionando
+      estos elementos con los temas de energía, transporte, agua, residuos plásticos, textiles y tecnológicos.
+    </p>
+
+    <div class="tabla-scroll">
+      <table class="tabla-pop tabla-consol">
+        <thead>
+          <tr>
+            <th class="th-naranja">Tipo de contaminación</th>
+            <th class="th-naranja">Causa</th>
+            <th class="th-naranja">Consecuencia</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="celda-tipo">
+              <img src="files/energiascontaminantes.jpg" alt="Energías contaminantes" class="img-cuadrada" />
+              <div class="etiqueta-tipo">Energías contaminantes</div>
+            </td>
+            <td><textarea data-key="con-energia-causa" placeholder="Causa..."></textarea></td>
+            <td><textarea data-key="con-energia-cons" placeholder="Consecuencia..."></textarea></td>
+          </tr>
+          <tr>
+            <td class="celda-tipo">
+              <img src="files/contaminaciondelagua.jpg" alt="Contaminación del agua" class="img-cuadrada" />
+              <div class="etiqueta-tipo">Contaminación del agua</div>
+            </td>
+            <td><textarea data-key="con-agua-causa" placeholder="Causa..."></textarea></td>
+            <td><textarea data-key="con-agua-cons" placeholder="Consecuencia..."></textarea></td>
+          </tr>
+          <tr>
+            <td class="celda-tipo">
+              <img src="files/desechosplasticos.jpg" alt="Desechos plásticos" class="img-cuadrada" />
+              <div class="etiqueta-tipo">Desechos plásticos</div>
+            </td>
+            <td><textarea data-key="con-plastico-causa" placeholder="Causa..."></textarea></td>
+            <td><textarea data-key="con-plastico-cons" placeholder="Consecuencia..."></textarea></td>
+          </tr>
+          <tr>
+            <td class="celda-tipo">
+              <img src="files/desechostextiles.jpg" alt="Residuos textiles" class="img-cuadrada" />
+              <div class="etiqueta-tipo">Residuos textiles</div>
+            </td>
+            <td><textarea data-key="con-textil-causa" placeholder="Causa..."></textarea></td>
+            <td><textarea data-key="con-textil-cons" placeholder="Consecuencia..."></textarea></td>
+          </tr>
+          <tr>
+            <td class="celda-tipo">
+              <img src="files/desechoselectronicos.jpg" alt="Residuos electrónicos" class="img-cuadrada" />
+              <div class="etiqueta-tipo">Residuos electrónicos (residuos-E)</div>
+            </td>
+            <td><textarea data-key="con-electro-causa" placeholder="Causa..."></textarea></td>
+            <td><textarea data-key="con-electro-cons" placeholder="Consecuencia..."></textarea></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============== DESAFÍO XO ============== -->
+  <section class="panel panel-xo" id="panel-xo">
+    <div class="panel-corner tl"></div>
+    <div class="panel-corner tr"></div>
+    <div class="panel-corner bl"></div>
+    <div class="panel-corner br"></div>
+
+    <div class="xo-reto">
+      <div class="emoji-grande" id="emojiEstado">🤔</div>
+      <h2 class="panel-title">¿Un duelo de XO?</h2>
+      <p class="instrucciones-xo">
+        ¡Demuestra tu habilidad! Juegas contra el Prof. Eliseo. <strong>Solo tienes una oportunidad.</strong>
+      </p>
+      <button id="btnAceptarXO" class="btn-pop btn-rojo">¡ACEPTO EL DUELO!</button>
+    </div>
+
+    <div class="xo-juego oculto" id="xoJuego">
+      <p class="xo-turno" id="xoTurno">Tu turno (X)</p>
+      <div class="tablero-xo" id="tableroXO">
+        <div class="celda-xo" data-i="0"></div>
+        <div class="celda-xo" data-i="1"></div>
+        <div class="celda-xo" data-i="2"></div>
+        <div class="celda-xo" data-i="3"></div>
+        <div class="celda-xo" data-i="4"></div>
+        <div class="celda-xo" data-i="5"></div>
+        <div class="celda-xo" data-i="6"></div>
+        <div class="celda-xo" data-i="7"></div>
+        <div class="celda-xo" data-i="8"></div>
+      </div>
+      <div class="xo-resultado oculto" id="xoResultado"></div>
+    </div>
+  </section>
+
+  <!-- ============== BOTÓN PDF ============== -->
+  <section class="panel-descarga">
+    <button id="btnDescargarPDF" class="btn-pop btn-amarillo btn-descarga">
+      📄 DESCARGAR PDF
+    </button>
+    <p class="instrucciones-pdf">
+      Descarga tu PDF y súbelo a Google Classroom.
+    </p>
+  </section>
+
+  <footer class="pie">
+    <p>© COEDUCA · Ciudadanía y Valores · Prof. José Eliseo Martínez</p>
+  </footer>
+
+  <!-- Modal de aviso (copiar/pegar bloqueado) -->
+  <div class="modal-aviso oculto" id="modalAviso">
+    <div class="modal-contenido">
+      <div class="modal-emoji">🚫</div>
+      <h3>¡Ups!</h3>
+      <p>Copiar y pegar están bloqueados en esta actividad.<br>¡Escribe tus propias respuestas!</p>
+      <button id="cerrarModal" class="btn-pop btn-azul">Entendido</button>
+    </div>
+  </div>
+
+  <!-- Librerías -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>
+    // Fallback: si el CDN falla, cargar versión local
+    if (typeof window.jspdf === 'undefined') {
+      document.write('<script src="jspdf.umd.min.js"><\/script>');
+    }
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
